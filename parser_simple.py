@@ -18,6 +18,9 @@ def get_authors_and_titles_by_class( target_url, container_tag, container_attrs,
 
 target_urls = ["http://www.livelib.ru/books/top", "http://readrate.com/rus/ratings/top100"]
 
+
+
+
 top_by_sites = {} # { site url : (titles) }
 
 for url in target_urls:
